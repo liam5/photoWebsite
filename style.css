@@ -1,7 +1,9 @@
 body {
   background-color: black;
   background-position: top center;
+  overflow: scroll;
 }
+
 
 #bgVideo {
   width: 100%;
@@ -43,4 +45,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centered {
+  font-size: 500%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
