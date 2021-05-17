@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
   background-position: top center;
@@ -42,15 +43,16 @@ video {
   right: 16px;
 }
 
-.centered {
+.banner {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.centered {
-  font-size: 500%;
+.banner {
+  font-size: 1000%;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
+  font-weight: 900;
+  color: greenyellow
 }
