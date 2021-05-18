@@ -7,7 +7,7 @@ body {
 
 video {
   object-fit: cover;
-  width: 100vw;
+  width: 98.5vw;
   height: 97vh;
   top: 0;
   left: 0;
@@ -52,7 +52,40 @@ video {
 
 .banner {
   font-size: 1000%;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 900;
+  font-family: tComesT;
+  font-weight: 0;
   color: greenyellow
-}
+} 
+
+/* @font-face {
+    font-family: 'typewriter';
+    src: url('MomsTypewriter.woff2') format('woff2'),
+        url('MomsTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}           First Font Idea            */
+
+/* @font-face {
+    font-family: 'jAnotherC';
+    src: url('font2.woff') format('woff2'),
+        url('font2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}         Second Font Idea          */
+
+
+/*
+@font-face {
+    font-family: 'tComesT';
+    src: url('font3.woff') format('woff2'),
+        url('font3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}         Third Font Idea.          */
+
+
+
+
