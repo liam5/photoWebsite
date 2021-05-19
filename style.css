@@ -52,39 +52,50 @@ video {
 
 .banner {
   font-size: 1000%;
-  font-family: tComesT;
-  font-weight: 0;
-  color: greenyellow
+  font-family: oldNewspaper;
+  font-weight: 900;
+  color: #daff76
 } 
 
-/* @font-face {
+ @font-face {
     font-family: 'typewriter';
-    src: url('MomsTypewriter.woff2') format('woff2'),
-        url('MomsTypewriter.woff') format('woff');
+    src: url('momsTypewriter.woff2') format('woff2'),
+        url('momsTypewriter.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}           First Font Idea            */
+}          /* First Font Idea   */       
 
-/* @font-face {
+ @font-face {
     font-family: 'jAnotherC';
-    src: url('font2.woff') format('woff2'),
-        url('font2.woff') format('woff');
+    src: url('justAnotherCourier.woff2') format('woff2'),
+        url('justAnotherCourier.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}         Second Font Idea          */
+}         /* Second Font Idea  */     
 
 
-/*
+
 @font-face {
     font-family: 'tComesT';
-    src: url('font3.woff') format('woff2'),
-        url('font3.woff') format('woff');
+    src: url('tomorrowComesToday.woff2') format('woff2'),
+        url('tomorrowComesToday.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}         Third Font Idea.          */
+}        /* Third Font Idea. */    
+
+@font-face {
+    font-family: 'oldNewspaper';
+    src: url('oldNewspaperTypes.woff2') format('woff2'),
+        url('oldNewspaperTypes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}        /* 4th Font Idea. */    
+
+
 
 
 
