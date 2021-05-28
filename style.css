@@ -5,47 +5,60 @@ body {
   overflow: scroll;
 }
 
+#bgVid {
+  padding-bottom: 1080px
+}
+
+
 video {
   object-fit: cover;
   width: 98.5vw;
-  height: 97vh;
+  height: 96.1vh;
   top: 0;
   left: 0;
 }
 
-.container {
+.xtraStyling {
   position: relative;
   text-align: center;
-  color: white;
+  color: #daff76;
+}
+
+.navStyle {
+  font-size: 20px;
 }
 
 .bottom-left {
   position: absolute;
   bottom: 8px;
   left: 16px;
+  font-family: tComesT;
 }
 
 .top-left {
-  position: absolute;
+  position: fixed;
   top: 8px;
   left: 16px;
+  font-family: tComesT;
 }
 
 .top-right {
-  position: absolute;
+  position: fixed;
   top: 8px;
   right: 16px;
+  font-family: tComesT;
 }
 
 .bottom-right {
   position: absolute;
   bottom: 8px;
   right: 16px;
+  font-family: tComesT;
 }
 
 .banner {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -96,7 +109,82 @@ video {
 }        /* 4th Font Idea. */    
 
 
+a:link {
+  text-decoration: none;
+  color: #daff76;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #daff76;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #daff76;
+  color: #54009c;
+  padding: 1px;
+  border-radius: 3px;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: #daff76;
+  color: #54009c;
+  padding: 1px;
+  border-radius: 3px;
+}
 
 
 
 
+
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
