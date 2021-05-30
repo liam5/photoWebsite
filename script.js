@@ -1,10 +1,5 @@
-var myVar;
+var overlay = document.getElementById("overlay");
 
-function myFunction() {
-  myVar = setTimeout(showPage, 7000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
+window.addEventListener('load', function(){
+  overlay.style.display = 'none';
+})

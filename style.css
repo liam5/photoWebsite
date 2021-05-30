@@ -1,8 +1,81 @@
+/* preloader */
+body{
+    width: 100%;
+  
+    overflow-x: hidden;
+}
+
+.spinner{
+    width: 80px;
+    height: 80px;
+    
+    border: 10px solid #daff76;
+    border-top: 10px solid #ef76ff;
+    border-bottom: 10px solid #ed68ff;
+    border-radius: 48%;
+
+    
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+#overlay{
+  height:100%;
+  width:100%;
+  background:#000000;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:9999;
+ }
+/* preloader */
+
+
+/* custom scroll, probably wont use due to "Custom scrollbars are not supported in Firefox or in Edge"
+
+/* width 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track 
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle 
+::-webkit-scrollbar-thumb {
+  background: #54009c; 
+}
+
+/* Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+  background:#873bca; 
+}
+*/
+
+
+
 
 body {
   background-color: black;
   background-position: top center;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 #bgVid {
@@ -137,54 +210,3 @@ a:active {
 
 
 
-
-
-
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid black;
-  border-radius: 50%;
-  border-top: 16px solid #daff76;
-  -webkit-animation: spin 1s linear infinite;
-  animation: spin 1s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
