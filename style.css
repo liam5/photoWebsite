@@ -109,6 +109,17 @@ video {
   transform: translate(-50%, -50%);
 }
 
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 3px;
+  left: 45%;
+  font-family: tComesT;
+  font-size: 30px;
+  background-color:;
+  transform: translate(-50%, -50%);
+}
+
 .bottom-right {
  position: absolute;
   bottom: 3px;
@@ -158,6 +169,22 @@ video {
   font-weight: 900;
   color: #daff76
 } 
+
+.banner2 {
+  font-size: 50px;
+  font-family: oldNewspaper;
+  font-weight: 900;
+  color: #daff76
+} 
+
+.banner2 {
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
  @font-face {
     font-family: 'typewriter';
