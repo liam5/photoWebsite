@@ -130,6 +130,19 @@ video {
   transform: translate(-50%, -50%);
 }
 
+
+.bottom-right2 {
+ position: absolute;
+  bottom: 3px;
+  left: 55%;
+  font-family: tComesT;
+  font-size: 30px;
+  background-color:#daff7642;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
+
 .bottom-center {
   position: absolute;
   bottom: 3px;
@@ -137,6 +150,17 @@ video {
   font-family: tComesT;
   font-size: 30px;
   background-color:;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center2 {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  font-family: tComesT;
+  font-size: 30px;
+  background-color:#daff7642;
+  border-radius: 3px;
   transform: translate(-50%, -50%);
 }
 
@@ -254,6 +278,67 @@ a:active {
 .navStyle {
   font-size: 24px;
 }
+
+
+.contactsHeader {
+  color: red;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-family: tComesT;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.contact1 {
+  color: red;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-family: tComesT;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.contact2 {
+  color: red;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-family: tComesT;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+}
+
+
+.contact3 {
+  color: red;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-family: tComesT;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.bannerContact{
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bannerContact{
+  font-size: 50px;
+  font-family: oldNewspaper;
+  font-weight: 900;
+  color: #daff76
+} 
+
+
+
+
+
 
 
 
