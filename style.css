@@ -297,13 +297,13 @@ a:active {
   font-family: contact;
   font-size: 40px;
   transform: translate(-50%, -50%);
-  text-decoration: underline;
+  //text-decoration: underline;
 }
 
 .contact1 {
   color: #ef76ff;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
   font-family: tComesT;
   font-size: 24px;
@@ -313,7 +313,7 @@ a:active {
 .contact2 {
   color: #ef76ff;
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   font-family: tComesT;
   font-size: 24px;
@@ -324,7 +324,7 @@ a:active {
 .contact3 {
   color: #ef76ff;
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   font-family: tComesT;
   font-size: 24px;
