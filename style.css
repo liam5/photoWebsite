@@ -248,6 +248,15 @@ video {
     font-display: swap;
 }        /* 4th Font Idea. */    
 
+@font-face {
+    font-family: 'contact';
+    src: url('TheBattleContinuez.woff2') format('woff2'),
+        url('TheBattleContinuez.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 a:link {
   text-decoration: none;
@@ -281,19 +290,20 @@ a:active {
 
 
 .contactsHeader {
-  color: red;
+  color: #ef76ff;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
-  font-family: tComesT;
-  font-size: 24px;
+  font-family: contact;
+  font-size: 40px;
   transform: translate(-50%, -50%);
+  text-decoration: underline;
 }
 
 .contact1 {
-  color: red;
+  color: #ef76ff;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   font-family: tComesT;
   font-size: 24px;
@@ -301,9 +311,9 @@ a:active {
 }
 
 .contact2 {
-  color: red;
+  color: #ef76ff;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   font-family: tComesT;
   font-size: 24px;
@@ -312,9 +322,9 @@ a:active {
 
 
 .contact3 {
-  color: red;
+  color: #ef76ff;
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 50%;
   font-family: tComesT;
   font-size: 24px;
@@ -335,6 +345,43 @@ a:active {
   color: #daff76
 } 
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 
 
 
