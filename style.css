@@ -1,6 +1,6 @@
 /* preloader */
 body{
-    width: 100%;
+    width: 99%;
   
     overflow-x: hidden;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 #bgVid {
-  padding-bottom: 1080px
+  padding-bottom: 1000px
 }
 
 
@@ -209,6 +209,12 @@ video {
 }
 
 
+.scrollDown {
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
  @font-face {
     font-family: 'typewriter';
