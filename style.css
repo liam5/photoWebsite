@@ -1,7 +1,6 @@
 /* preloader */
 body{
     width: 99%;
-  
     overflow-x: hidden;
 }
 
@@ -79,7 +78,7 @@ body {
 }
 
 #bgVid {
-  padding-bottom: 1000px
+  
 }
 
 
@@ -89,6 +88,7 @@ video {
   height: 96.1vh;
   top: 0;
   left: 0;
+  padding-bottom: 30px;
 }
 
 .xtraStyling {
@@ -182,7 +182,7 @@ video {
 
 .banner {
   position: absolute;
-  top: 20%;
+  top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -350,4 +350,28 @@ a:active {
   font-weight: 900;
   color: #daff76
 } 
+
+.container {
+  height: 1000px;
+  position: relative;
+}
+
+.aboutHeader {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 90px;
+  font-family: tComesT;
+  color: #ff0000
+}
+
+.about {
+  position: absolute;
+  top: 95px;
+  left: 16px;
+  font-size: 26px;
+  font-family: tComesT;
+  color: #ff0000
+}
+
 
