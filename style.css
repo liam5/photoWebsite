@@ -382,10 +382,24 @@ a:active {
   position: relative;
 }
 
-.pictures1 {
+
+.pictures1_1 {
   position: absolute;
-  top: 45px;
-  left: 36px;
+  top: 48px;
+  left: 1236px;
+}
+
+
+.pictures1_2 {
+  position: absolute;
+  top: 333px;
+  left: 1236px;
+}
+
+.pictures1_3 {
+  position: absolute;
+  top: 618px;
+  left: 1236px;
 }
 
 
@@ -405,7 +419,7 @@ a:active {
 .pictures3 {
   position: absolute;
   top: 45px;
-  left: 1236px;
+  left: 36px;
 }
 
 
