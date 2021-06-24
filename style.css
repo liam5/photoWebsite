@@ -407,3 +407,65 @@ a:active {
   top: 45px;
   left: 1236px;
 }
+
+
+
+.containerPageThree {
+  height: 850px;
+  position: relative;
+}
+
+.picturesPg3_1 {
+  position: absolute;
+  top: 48px;
+  left: 36px;
+}
+
+
+.picturesPg3_2 {
+  position: absolute;
+  top: 333px;
+  left: 36px;
+}
+
+.picturesPg3_3 {
+  position: absolute;
+  top: 618px;
+  left: 36px;
+}
+
+
+.picturesPg3_4 {
+  position: absolute;
+  top: 45px;
+  left: 636px;
+}
+
+
+.picturesPg3_5 {
+  position: absolute;
+  top: 45px;
+  left: 1236px;
+}
+
+
+.picturesPg3_6 {
+  position: absolute;
+  top: 45px;
+  left: 1541px;
+}
+
+
+
+.picturesPg3_7 {
+  position: absolute;
+  top: 475px;
+  left: 1236px;
+}
+
+
+.picturesPg3_8 {
+  position: absolute;
+  top: 475px;
+  left: 1541px;
+}
