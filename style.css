@@ -77,9 +77,6 @@ body {
   overflow-x: hidden;
 }
 
-#bgVid {
-  
-}
 
 
 video {
@@ -116,7 +113,6 @@ video {
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:;
   transform: translate(-50%, -50%);
 }
 
@@ -126,7 +122,6 @@ video {
   left: 55%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:;
   transform: translate(-50%, -50%);
 }
 
@@ -149,7 +144,6 @@ video {
   left: 50%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:;
   transform: translate(-50%, -50%);
 }
 
@@ -303,7 +297,6 @@ a:active {
   font-family: contact;
   font-size: 40px;
   transform: translate(-50%, -50%);
-  //text-decoration: underline;
 }
 
 .contact1 {
@@ -382,4 +375,35 @@ a:active {
   padding: 5px;
   border-radius: 5px;
   background-color: #b676ff;
+}
+
+.containerPageTwo {
+  height: 850px;
+  position: relative;
+}
+
+.pictures1 {
+  position: absolute;
+  top: 45px;
+  left: 36px;
+}
+
+
+.pictures2_1 {
+  position: absolute;
+  top: 45px;
+  left: 636px;
+}
+
+.pictures2_2 {
+  position: absolute;
+  top: 475px;
+  left: 636px;
+}
+
+
+.pictures3 {
+  position: absolute;
+  top: 45px;
+  left: 1236px;
 }
