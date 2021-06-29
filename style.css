@@ -94,14 +94,25 @@ video {
   color: #daff76;
 }
 
-
 .bottom-left {
+  position: absolute;
+  top: 930px;
+  left: 45%;
+  font-family: tComesT;
+  font-size: 30px;
+  background-color:#b02fec85;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
+
+.bottom-leftHome {
   position: absolute;
   bottom: 3px;
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#daff7642;
+  background-color:#b02fec85;
   border-radius: 3px;
   transform: translate(-50%, -50%);
 }
@@ -109,55 +120,83 @@ video {
 
 .bottom-left2 {
   position: absolute;
-  bottom: 3px;
+  top: 930px;
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
   transform: translate(-50%, -50%);
+  background-color:#000000;
+  border-radius: 3px;
 }
 
 .bottom-right {
  position: absolute;
-  bottom: 3px;
+  top: 930px;
   left: 55%;
   font-family: tComesT;
   font-size: 30px;
   transform: translate(-50%, -50%);
+  background-color:#000000;
+  border-radius: 3px;
 }
 
 
 .bottom-right2 {
  position: absolute;
+  top: 930px;
+  left: 55%;
+  font-family: tComesT;
+  font-size: 30px;
+  background-color:#b02fec85;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
+
+.bottom-rightHome {
+ position: absolute;
   bottom: 3px;
   left: 55%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#daff7642;
-  border-radius: 3px;
   transform: translate(-50%, -50%);
+  background-color:#000000;
+  border-radius: 3px;
 }
-
 
 .bottom-center {
   position: absolute;
-  bottom: 3px;
+  top: 930px;
   left: 50%;
   font-family: tComesT;
   font-size: 30px;
   transform: translate(-50%, -50%);
+  background-color:#000000;
+  border-radius: 3px;
 }
 
 .bottom-center2 {
   position: absolute;
-  bottom: 3px;
+  top: 930px;
   left: 50%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#daff7642;
+  background-color:#b02fec85;
   border-radius: 3px;
   transform: translate(-50%, -50%);
 }
 
+
+.bottom-centerHome {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  font-family: tComesT;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  background-color:#000000;
+  border-radius: 3px;
+}
 
 .top-left {
   position: fixed;
@@ -378,7 +417,7 @@ a:active {
 }
 
 .containerPageTwo {
-  height: 850px;
+  height: 940px;
   position: relative;
 }
 
@@ -425,7 +464,7 @@ a:active {
 
 
 .containerPageThree {
-  height: 850px;
+  height: 940px;
   position: relative;
 }
 
