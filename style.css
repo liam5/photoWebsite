@@ -1,7 +1,7 @@
 /* preloader */
 body{
     width: 99%;
-    overflow-x: hidden;
+    overflow-x: ;
 }
 
 .spinner{
@@ -74,7 +74,7 @@ body {
   background-color: black;
   background-position: top center;
   overflow: scroll;
-  overflow-x: hidden;
+  overflow-x: ;
 }
 
 
@@ -251,8 +251,8 @@ video {
 
  @font-face {
     font-family: 'typewriter';
-    src: url('momsTypewriter.woff2') format('woff2'),
-        url('momsTypewriter.woff') format('woff');
+    src: url('fonts/momsTypewriter.woff2') format('woff2'),
+        url('fonts/momsTypewriter.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -260,8 +260,8 @@ video {
 
  @font-face {
     font-family: 'jAnotherC';
-    src: url('justAnotherCourier.woff2') format('woff2'),
-        url('justAnotherCourier.woff') format('woff');
+    src: url('fonts/justAnotherCourier.woff2') format('woff2'),
+        url('fonts/justAnotherCourier.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -271,8 +271,8 @@ video {
 
 @font-face {
     font-family: 'tComesT';
-    src: url('tomorrowComesToday.woff2') format('woff2'),
-        url('tomorrowComesToday.woff') format('woff');
+    src: url('fonts/tomorrowComesToday.woff2') format('woff2'),
+        url('fonts/tomorrowComesToday.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -280,8 +280,8 @@ video {
 
 @font-face {
     font-family: 'oldNewspaper';
-    src: url('oldNewspaperTypes.woff2') format('woff2'),
-        url('oldNewspaperTypes.woff') format('woff');
+    src: url('fonts/oldNewspaperTypes.woff2') format('woff2'),
+        url('fonts/oldNewspaperTypes.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -289,8 +289,8 @@ video {
 
 @font-face {
     font-family: 'contact';
-    src: url('TheBattleContinuez.woff2') format('woff2'),
-        url('TheBattleContinuez.woff') format('woff');
+    src: url('fonts/TheBattleContinuez.woff2') format('woff2'),
+        url('fonts/TheBattleContinuez.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -395,6 +395,9 @@ a:active {
   font-size: 90px;
   font-family: oldNewspaper;
   color: #b676ff;
+  z-index: 999;
+  background-color: black;
+  border-radius: 20px;
 }
 
 .about {
@@ -405,6 +408,9 @@ a:active {
   font-family: tComesT;
   color: #b676ff;
   text-align: left;
+  z-index: 999;
+  background-color: black;
+  border-radius: 20px;
 }
 
 .homePict {
