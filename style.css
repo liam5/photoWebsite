@@ -100,7 +100,7 @@ video {
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#b02fec85;
+  background-color:#5D197C;
   border-radius: 3px;
   transform: translate(-50%, -50%);
 }
@@ -112,7 +112,7 @@ video {
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#b02fec85;
+  background-color:#5D197C;
   border-radius: 3px;
   transform: translate(-50%, -50%);
 }
@@ -147,7 +147,7 @@ video {
   left: 55%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#b02fec85;
+  background-color:#5D197C;
   border-radius: 3px;
   transform: translate(-50%, -50%);
 }
@@ -181,7 +181,7 @@ video {
   left: 50%;
   font-family: tComesT;
   font-size: 30px;
-  background-color:#b02fec85;
+  background-color:#5D197C;
   border-radius: 3px;
   transform: translate(-50%, -50%);
 }
@@ -244,7 +244,7 @@ video {
 
 .scrollDown {
   position: absolute;
-  top: 800px;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
