@@ -1,7 +1,6 @@
-/* preloader */
+
 body{
     width: 99%;
-    overflow-x: ;
 }
 
 .spinner{
@@ -41,7 +40,7 @@ body{
   top:0;
   z-index:9999;
  }
-/* preloader */
+
 
 
 /* custom scroll, probably wont use due to "Custom scrollbars are not supported in Firefox or in Edge"
@@ -68,16 +67,12 @@ body{
 */
 
 
-
-
 body {
   background-color: black;
   background-position: top center;
   overflow: scroll;
   overflow-x: ;
 }
-
-
 
 video {
   object-fit: cover;
@@ -94,9 +89,13 @@ video {
   color: #daff76;
 }
 
-.bottom-left {
+
+
+
+
+.bottom-leftHome {
   position: absolute;
-  top: 930px;
+  bottom: 3px;
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
@@ -105,10 +104,9 @@ video {
   transform: translate(-50%, -50%);
 }
 
-
-.bottom-leftHome {
+.bottom-left {
   position: absolute;
-  bottom: 3px;
+  top: 930px;
   left: 45%;
   font-family: tComesT;
   font-size: 30px;
@@ -129,6 +127,22 @@ video {
   border-radius: 3px;
 }
 
+
+
+
+
+
+.bottom-rightHome {
+ position: absolute;
+  bottom: 3px;
+  left: 55%;
+  font-family: tComesT;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  background-color:#000000;
+  border-radius: 3px;
+}
+
 .bottom-right {
  position: absolute;
   top: 930px;
@@ -139,7 +153,6 @@ video {
   background-color:#000000;
   border-radius: 3px;
 }
-
 
 .bottom-right2 {
  position: absolute;
@@ -153,10 +166,14 @@ video {
 }
 
 
-.bottom-rightHome {
- position: absolute;
+
+
+
+
+.bottom-centerHome {
+  position: absolute;
   bottom: 3px;
-  left: 55%;
+  left: 50%;
   font-family: tComesT;
   font-size: 30px;
   transform: translate(-50%, -50%);
@@ -187,16 +204,9 @@ video {
 }
 
 
-.bottom-centerHome {
-  position: absolute;
-  bottom: 3px;
-  left: 50%;
-  font-family: tComesT;
-  font-size: 30px;
-  transform: translate(-50%, -50%);
-  background-color:#000000;
-  border-radius: 3px;
-}
+
+
+
 
 .top-left {
   position: fixed;
@@ -211,6 +221,10 @@ video {
   right: 16px;
   font-family: tComesT;
 }
+
+
+
+
 
 
 .banner {
@@ -242,12 +256,20 @@ video {
 }
 
 
+
+
+
 .scrollDown {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+
+
 
  @font-face {
     font-family: 'typewriter';
@@ -266,8 +288,6 @@ video {
     font-style: normal;
     font-display: swap;
 }         /* Second Font Idea  */     
-
-
 
 @font-face {
     font-family: 'tComesT';
@@ -297,6 +317,9 @@ video {
 }
 
 
+
+
+
 a:link {
   text-decoration: none;
   color: #daff76;
@@ -323,10 +346,32 @@ a:active {
   border-radius: 3px;
 }
 
+
+
+
+
+
 .navStyle {
   font-size: 24px;
 }
 
+
+
+
+
+.bannerContact{
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bannerContact{
+  font-size: 50px;
+  font-family: oldNewspaper;
+  font-weight: 900;
+  color: #daff76
+} 
 
 .contactsHeader {
   color: #ef76ff;
@@ -358,7 +403,6 @@ a:active {
   transform: translate(-50%, -50%);
 }
 
-
 .contact3 {
   color: #ef76ff;
   position: absolute;
@@ -369,19 +413,9 @@ a:active {
   transform: translate(-50%, -50%);
 }
 
-.bannerContact{
-  position: fixed;
-  top: 3%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.bannerContact{
-  font-size: 50px;
-  font-family: oldNewspaper;
-  font-weight: 900;
-  color: #daff76
-} 
+
+
 
 .container {
   height: 520px;
@@ -422,18 +456,21 @@ a:active {
   background-color: #b676ff;
 }
 
+
+
+
+
+
 .containerPageTwo {
   height: 940px;
   position: relative;
 }
-
 
 .pictures1_1 {
   position: absolute;
   top: 48px;
   left: 1236px;
 }
-
 
 .pictures1_2 {
   position: absolute;
@@ -447,7 +484,6 @@ a:active {
   left: 1236px;
 }
 
-
 .pictures2_1 {
   position: absolute;
   top: 45px;
@@ -460,12 +496,13 @@ a:active {
   left: 636px;
 }
 
-
 .pictures3 {
   position: absolute;
   top: 45px;
   left: 36px;
 }
+
+
 
 
 
@@ -480,7 +517,6 @@ a:active {
   left: 36px;
 }
 
-
 .picturesPg3_2 {
   position: absolute;
   top: 333px;
@@ -493,13 +529,11 @@ a:active {
   left: 36px;
 }
 
-
 .picturesPg3_4 {
   position: absolute;
   top: 45px;
   left: 636px;
 }
-
 
 .picturesPg3_5 {
   position: absolute;
@@ -507,14 +541,11 @@ a:active {
   left: 1236px;
 }
 
-
 .picturesPg3_6 {
   position: absolute;
   top: 45px;
   left: 1541px;
 }
-
-
 
 .picturesPg3_7 {
   position: absolute;
@@ -522,12 +553,16 @@ a:active {
   left: 1236px;
 }
 
-
 .picturesPg3_8 {
   position: absolute;
   top: 475px;
   left: 1541px;
 }
+
+
+
+
+
 
 .fade-in-image {
   animation: fadeIn 2s;
